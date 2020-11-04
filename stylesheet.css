@@ -1,0 +1,64 @@
+body {
+    background-color: RGB(173 , 125, 198);
+    margin: 0;
+}
+
+h1 {
+    background-color: RGB(237, 208, 230);
+    color: RGB(85, 6, 85);
+}
+
+h2 {
+    background-color: RGB(237, 208, 230);
+    color: RGB(85, 6, 85);
+}
+
+h3 {
+    background-color: RGB(237, 208, 230);
+    color: RGB(85, 6, 85)
+}
+
+
+p {
+    background-color: RGB(237, 208, 230);
+    color: RGB(85, 6, 85);
+    padding: 0 5px;
+}
+
+.title_bar {
+    background-color: RGB(237, 208, 230);
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.nav_bar {
+    background-color: RGB(247, 218, 240);
+    display: block;
+    overflow: hidden;
+}
+
+.nav_links {
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav_bar a{
+    display: block;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    color: RGB(85, 6, 85);
+    float: left;
+}
+
+.nav_links a:hover {
+    background-color: RGB(250, 230, 245);
+    color: RGB(90, 10, 90);
+    transition: 0.35s;
+}
+
+.active{
+    background-color: RGB(250, 230, 245);
+    color: RGB(90, 10, 90);
+}
